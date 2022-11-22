@@ -1,0 +1,172 @@
+/* universal */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'antique-olive', sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to right, #0A0B0B, #A07178, #F7B801, #F18701);
+}
+
+.title {
+    text-align: center;
+    margin: 5px auto 0px;
+    font-family: 'degular', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+.section {
+    width: 61%;
+    margin: 5px auto 20px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 20px;
+    padding: 15px 15px;
+    background-color: rgba(255, 250, 251, 0.9);
+}
+
+/* main */
+.main {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main h1 {
+    font-family: 'bely-display', sans-serif;
+    font-size: 80pt;
+    padding: 0px;
+    color: #fffafb;
+    height: 0.5;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.main .logo {
+    height:min-content;
+}
+
+.main h2 {
+    font-family: 'degular', sans-serif;
+    font-weight: 300;
+    color: #fffafb;
+    font-size: 16pt;
+}
+
+/* section 1 - colours */
+
+.color-panel{
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colorlist li {
+    display: inline;
+    margin: 15px;
+} 
+
+.rich-black {
+    background-color: #0A0B0B;
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 50px 50px;
+    
+}
+
+.pink-matter {
+    background-color: #A07178;
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 50px 50px;
+    
+}
+
+.mango {
+    background-color: #F7B801;
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 50px 50px;
+    
+}
+
+.satsuma {
+    background-color: #F18701;
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 50px 50px;
+}
+
+.snow {
+    background-color: #fffafb;
+    color: black;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 50px 50px;
+    
+}
+
+/* section 2 - fonts */
+.font-panel {
+    margin: 10px auto 20px;
+    padding: 10px auto;
+}
+
+.font-label {
+    font-size: 20px;
+}
+
+.regular {
+    font-style: normal;
+ }
+  
+.italic {
+    font-style: italic;
+}
+  
+.bold {
+    font-weight: 700;
+}
+  
+.bely {
+    font-family: 'bely-display', sans-serif;
+}
+
+.antique {
+    font-family: 'antique-olive', sans-serif;
+}
+
+.degular {
+    font-family: 'degular', sans-serif;
+}
+
+/* section 2 - text styles */
+.text-panel {
+    margin: 10px auto 20px;
+    padding: 10px auto;
+}
+
+.text-panel li {
+    list-style-type: none;
+}
+
+.text-panel h1 {
+    font-family: 'bely-display', sans-serif;
+}
+
+.text-panel h2 {
+    font-family: 'degular', sans-serif;
+    font-weight: 300;
+}
+
+.text-panel p {
+    font-family: 'antique-olive', sans-serif;
+}
